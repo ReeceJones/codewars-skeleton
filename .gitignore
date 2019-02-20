@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+codewars-skeleton.so
+codewars-skeleton.dylib
+codewars-skeleton.dll
+codewars-skeleton.a
+codewars-skeleton.lib
+codewars-skeleton-test-*
+*.exe
+*.o
+*.obj
+*.lst
+codewars-skeleton
