@@ -13,3 +13,5 @@ codewars-skeleton-test-*
 *.obj
 *.lst
 codewars-skeleton
+prob*
+
