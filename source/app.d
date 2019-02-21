@@ -1,8 +1,21 @@
 import std.stdio;
 import codewars.shortcuts;
-void main()
+
+version(prob00)
 {
-	writeln("Edit source/app.d to start your project.");
-	auto input = treadf!("%d %d\n", int, int);
-	input.writeln;
+	void invoke()
+	{
+		writeln("hallo");
+	}
+}
+
+version(unittest)
+{
+}
+else
+{
+	void main()
+	{
+		invoke();
+	}
 }
